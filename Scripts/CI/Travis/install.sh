@@ -5,7 +5,7 @@ set -x
 
 if [ "$TRAVIS_OS_NAME" = "osx" ];
 then
-    MACOS_HEADER_PKG="/Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg"
+    # MACOS_HEADER_PKG="/Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg"
 
     brew update
     brew outdated pyenv || brew upgrade pyenv
